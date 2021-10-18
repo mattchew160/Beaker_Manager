@@ -1,0 +1,36 @@
+{
+    "manifest_version" : 3,
+    "name": "Beaker Manger",
+    "version": "1.0",
+    "description": "This extentsion tracks your overall spendings",
+    "icons" :{
+        "128" : "icons/beaker128.png",
+        "48":"icons/beaker48.png",
+        "16":"icons/beaker16.png"
+
+    },
+
+   
+    "action": {
+        "default_icon" : "icons/beaker16.png",
+        "default_popup": "popup.html",
+        "deafult_title" : "Beaker Manager"
+    },
+
+
+    "options_page" : "options.html",
+
+    "permissions": [
+        "storage",
+        "tabs"
+
+    ]
+
+
+
+
+
+
+
+
+}
