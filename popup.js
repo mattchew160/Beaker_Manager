@@ -1,8 +1,10 @@
 $(function(){
 
-    chrome.storage.sync.get(['total', 'limit'],function(beaker){
-        $('#total').text(beaker.total);
-        $('#limit').text(beaker.limit);
+    chrome.storage.sync.get(['total_meeps', 'limit'],function(beaker){
+        $('#total_meeps').val(beaker.total);
+        $('#limit').val(beaker.limit);
+
+        
     });
 
  
@@ -63,11 +65,12 @@ $(function(){
              
         }
 
-        var new_total = $('#total').val();
-        chrome.storage.sync.set({'total': (new_total + 1)}, function(){
+        
+        chrome.storage.sync.set({'total_meeps': (total_meeps)}, function(){
             
         
         });
+        console.log(total_meeps);
        
         
 
@@ -76,3 +79,5 @@ $(function(){
 
     
 });
+
+

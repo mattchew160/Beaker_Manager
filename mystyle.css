@@ -1,6 +1,7 @@
-title {
+head {
     background-color: rgb(247, 115, 39);
     align-content: center;
+    align-self: center;
 
 }
  
@@ -8,6 +9,7 @@ title {
 body {
     background-color: rgb(245, 133, 230);
     align-content: center;
+    align-self: center;
 
 }
 
