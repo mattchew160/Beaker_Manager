@@ -5,7 +5,7 @@ $(function(){
         $('#limit').text(beaker.limit);
     });
 
-
+ 
 
     $('#spent_amount').click(function(){
         chrome.storage.sync.get('total', function(beaker) {
