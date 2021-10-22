@@ -7,9 +7,11 @@ head {
  
 
 body {
-    background-color: rgb(245, 133, 230);
+    background-color: rgb(255, 223, 181);
     align-content: center;
     align-self: center;
+    width: 400px;
+    height: 500px;
 
 }
 

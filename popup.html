@@ -3,11 +3,19 @@
 <html>
 <head>
     <link rel="stylesheet" href="mystyle.css"> 
+    <script src ="testingJS.js"></script>  
+
+
+
+
+
+
+
 
     <title>
         Beaker Manager 
     </title>
-    <img src="icons/beaker48.png" id="on_click"></img>
+    <img src="icons/beaker48.png" id="meep_noise"></img>
     
     
     
@@ -15,13 +23,37 @@
 </head>
 <body>
     <h1> Beaker Manager</h1>
-    <h2> Total Meeps: <span id = "total_meeps"></span></h2>
 
-
-    <h2> Total Meeps: <span id = "total_mee" ></span></h2>
-
-    <input type="submit" value="increase by 1" id="plus1"> 
+    <table>
+        <tr>
+           <td> <h2> Total Meeps: </h2> <h2 id="total_meeps"> 0</h2>
+           </td>
+        </tr>
     
+    
+    
+    </table>
+
+
+
+    
+
+    <input type="button" value="increase by 1" id="plus">
+
+    
+    <br>
+    
+    <form>
+        
+        <input type="radio" id='on_off' value="Turn off Beaker popups">
+        <label>Turn off Beaker popups</label>
+        <br>
+
+        <input type="radio" id="mute" value="Mute beaker popups">
+        <label>Mute Beaker noises</label>
+        <br>
+
+    </form>
     
     
 
@@ -34,7 +66,7 @@
 
 <script src = "jquery-3.6.0.min.js"> </script> 
 
-<script src ="testingJS.js"></script>
+
 
 
 
