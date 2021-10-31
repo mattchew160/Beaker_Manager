@@ -1,0 +1,41 @@
+{"type" : "object",
+
+
+    "properties" : {
+
+        "AutoSave" :{
+            "title" : "Automaticlly saves changes.",
+            "description": "If set to true then changes will be automatically saved.",
+            "type": "boolean"
+        }
+
+
+        
+
+
+
+    },
+
+    "Meeps_counter": {
+        "title" : "Tracks the total number of meeps triggered",
+        
+        "type": "integer"
+      },
+
+      "Meeps_mute": {
+        "title" : "Turns audio on or off for all meeps",
+        
+        "type": "boolean"
+      },
+
+      "Meeps_popups": {
+        "title" : "Enables or disables beaker popups from poping up on the screen",
+        
+        "type": "boolean"
+      }
+
+
+
+
+
+}
