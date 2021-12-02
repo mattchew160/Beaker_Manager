@@ -82,6 +82,7 @@ window.onload=function(){
     
     document.getElementById("plus").addEventListener('click', plus1);
     document.getElementById("meep_noise").addEventListener('click', on_click_noise);
+    document.getElementById("Create Floating Beaker").addEventListener('click', spawn_beaker);
     
     
     function plus1() {
@@ -132,7 +133,12 @@ function on_click_noise(){
 
 
 
+
+
 // == loose comparison
 
 //=== stict comparison, values must be of the same data type to be compared
+
+
+
 } // on window load

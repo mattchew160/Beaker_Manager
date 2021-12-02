@@ -1,0 +1,95 @@
+<DOCTYPE html>
+
+    <html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css"> 
+        <script src ="popup.js"></script>  
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+    
+    </head>
+    <body>
+
+
+        <style>
+            .floating_beaker {
+                background-color: transparent;
+                width: 128px;
+                height: 128px;
+                padding: 0px;
+                transition: all 1s;
+                transform: translateZ(0px);
+                transform: translateX(0px);
+                transform: translateY(0px);
+                
+
+            }
+
+            .floating_beaker:hover{
+
+                transform-origin: center;
+
+                transform: translateZ(0px);
+                transform: translateY(0px);
+                transform: translateX(0px)
+            }
+
+
+        </style>
+
+        <script>
+            function spawn_beaker() {
+
+            var box = document.getElementsByClassName('floating_beaker');
+            
+
+            console.log(box);
+
+            var loop = true;
+
+            var translate_X = 0;
+            var translate_Y = 0;
+            var translate_Z = 0;
+
+
+
+            }
+
+
+
+            spawn_beaker();
+        </script>
+
+
+
+
+        <div>
+
+        <img src="icons/beaker128.png" class="floating_beaker" ></img>
+    
+        </div>
+    </body>
+    
+     
+    
+    <!--always have jquery as the first script after a title -->
+    
+    <script src = "jquery-3.6.0.min.js"> </script> 
+    
+    
+    
+    
+    
+    
+    </html>
+    
